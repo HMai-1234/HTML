@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Student Timetable</title>
+</head>
+<body>
+    <h2>Example: Student Timetable</h2>
+    <table border="1" width="100%" height="300px"> 
+      <caption>
+         <strong> Student timetable - Semester 1 </strong>
+      </caption>
+      <thead>
+        <tr style="background-color: rgb(169, 169, 169);"> 
+          <th> Period </th>
+          <th> Monday </th>
+          <th> Tuesday </th>
+          <th> Wednesday </th>
+          <th> Thusday </th>
+          <th> Friday </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th> Period 1 </th>
+          <td> Math </td>
+          <td rowspan="2"> Programming </td>
+          <td> English </td>
+          <td> Web Design </td>
+          <td> Math </td>
+        </tr>
+        <tr>
+          <th> Period 2 </th>
+          <td> History </td>
+          <td> Science </td>
+          <td> English </td>
+          <td> PE </td>
+        </tr>
+        <tr>
+          <th colspan="6" style="background-color: rgb(169, 169, 169);"> Lunch Break </th>
+        </tr>
+        <tr>
+          <th> Period 3 </th>
+          <td colspan="2" align="center"> Project Work </td>
+          <td> Math </td>
+          <td> Programming</td>
+          <td> Free </td>
+        </tr>
+        <tr>
+          <th> Period 4 </th>
+          <td> English </td>
+          <td> History </td>
+          <td rowspan="2"> Science Lab </td>
+          <td> Web Design </td>
+          <td> Math </td>
+        </tr>
+              <tr>
+          <th> Period 5 </th>
+          <td> PE </td>
+          <td> Math </td>
+          <td> English </td>
+          <td> Programming </td>
+        </tr>
+      </tbody>
+      
+      <tfoot>
+        <tr>
+          <td colspan="6" align="center" style="background-color: rgb(169, 169, 169);">Note: This timetable is subject to change.</td>
+        </tr>
+      </tfoot>
+    </table>
+</body>
+</html>
