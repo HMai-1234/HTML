@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">  
+    <form>
+        <table style="padding-left: 50px; padding-right: 50px;">
+            <caption>
+            <div class="logo">
+                
+                <h1> <i class="fa-solid fa-bolt"></i> Jackson 
+                <div style="border: 1px black solid; width: 100%;"></div>    
+                    Electronics</h1>
+            </div>
+                <h2 style="text-align: center;">Registration Form</h2>
+                <p style="text-align: center;">Register your Jackson Electronics product here</p>
+            </caption>
+            <tr>
+                <td style="padding-right: 50px;"> First Name: </td>
+                <td><input type="text"> Last Name: <input type="text"></td>
+            </tr>
+            <tr>
+                <td> Address #1: </td>
+                <td><input type="text" name="txtA1"  style="width: 55%;"></td>
+            </tr>
+            <tr>
+                <td> Address #2: </td>
+                <td><input type="text" name="txtA2"  style="width: 55%;"></td>
+            </tr>
+            <tr>
+                <td> City: </td>
+                <td><input type="text" name="txtCity"> State: <input type="text" class="half"> Zip: <input type="text" style="width: 25%;"></td>
+            </tr>
+            <tr>
+                <td> Country: </td>
+                <td><input type="text" name="txtCountry" value="United States"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><hr></td>
+            </tr>
+            <tr>
+                <td style="padding-right: 24px;"> Product: </td>
+                <td>
+                    <select  style="width: 125px;">
+                        <option> ScoreMaster </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 24px;">Date Purchased: </td>
+                <td><input type="text" name="txtDate"></td>
+            </tr>
+            <tr>
+                <td style="padding-right: 24px;">Serial #:</td>
+                <td><input type="text" name="txtSerial"></td>
+            </tr>
+            <tr>
+                <td> User for: </td>
+            <tr>
+                <td> </td>
+                <td><label><input type="radio" name="optUse" value="H"> Home</label>
+                <label style="padding-left: 40px;"><input type="radio" name="optUse" value="E"> Educational Institution</label></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><label><input type="radio" name="optUse" value="B"> Business</label>
+                <label style="padding-left: 22px;"><input type="radio" name="optUse" value="O"> Other</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label><input type="radio" name="optUse" value="G"> Government</label></td>
+            </tr>
+            </tr>
+            <tr>
+                <td> System (check all that apply): </td>
+                <td><label><input type="checkbox" name="optSystem" value="W"> Windows </label>
+                <label style="padding-left: 20px;"><input type="checkbox" name="optSystem" value="U"> UNIX </label></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><label><input type="checkbox" name="optSystem" value="M"> Macintosh </label>  
+                <label style="padding-left: 13px;"><input type="checkbox" name="optSystem" value="O"> Other </label></td>
+            </tr>
+        
+            <tr>
+                <td colspan="4"><hr></td>
+            </tr>
+            <tr>
+                <td>Comments?</td>
+                <td colspan="3"><textarea style="width:100%; height:100px;"></textarea></td>
+            </tr>
+            <div class="box">
+            <tr>
+                <td> </td>
+                <td> 
+                    <input type="submit" name="cmd" value="Click to register">
+                    <input type="submit" name="cmd" value="Click to cancel">
+                </td>
+            </tr>
+            </div>
+        </table>   
+        
+    </form>
+    </div>
+</body>
+</html>

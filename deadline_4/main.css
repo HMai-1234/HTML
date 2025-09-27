@@ -1,0 +1,44 @@
+.logo {
+  text-align: center;
+  border-radius: 20px;
+  border: 3px black solid;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  height: auto;
+  background-color: #63d6d6;
+  box-shadow: 10px 10px 8px#a5a8a8;
+}
+h1 {
+  text-align: center;
+}
+br {
+  border: none;
+  border-top: 1px solid #000;
+}
+.container {
+    background-color:#99CCFF;
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    white-space: nowrap;
+    display: table;
+    align-items: center;
+    /* padding: 20px; */
+}
+.half {
+    width: 15%;
+}
+hr {
+  border: none;
+  border-top: 1px solid #000; /* viền trên */
+  margin: 15px 0;             /* khoảng cách trên dưới */
+}
+
+
+
+
